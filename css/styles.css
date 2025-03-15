@@ -1,7 +1,7 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
   justify-content: center;
   padding: 20px;
   list-style: none;
@@ -14,12 +14,12 @@
 }
 
 .gallery-item:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .gallery-image {
   display: block;
-  width: 100%;
+  width: 500px;
   height: auto;
   border-radius: 8px;
   cursor: pointer;
